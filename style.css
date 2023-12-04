@@ -20,16 +20,17 @@ nav {
 }
 
 .nav-title {
-    color: var(--text-color);
+    flex-shrink: 0;
+    margin-right: auto;
 }
 
 nav ul {
-    list-style: none;
+    flex-grow: 1;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
-    margin-left: auto;
 }
 
 nav ul li {
