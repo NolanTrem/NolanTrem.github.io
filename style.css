@@ -1,0 +1,36 @@
+:root {
+    --background-color: #1a1a1a;
+    --text-color: #f5f5f5;
+    --primary-color: #4caf50;
+    /* Add more variables as needed */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    /* Other base styles */
+}
+
+nav ul {
+    list-style: none;
+    /* Navigation styling */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
