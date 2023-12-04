@@ -23,6 +23,7 @@ nav {
     color: var(--text-color);
     font-weight: bold;
     font-size: 1.2em;
+    flex-grow: 0;
     flex-shrink: 0;
 }
 
