@@ -16,14 +16,14 @@ nav {
     align-items: center;
     padding: 0 20px;
     background-color: var(--background-color);
+    width: 100%;
 }
 
 .nav-title {
     color: var(--text-color);
     font-weight: bold;
     font-size: 1.2em;
-    flex-grow: 0;
-    flex-shrink: 0;
+    margin-right: auto;
 }
 
 nav ul {
@@ -32,11 +32,12 @@ nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
-    margin-left: auto;
 }
 
-nav ul li {
-    display: inline;
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 a {
